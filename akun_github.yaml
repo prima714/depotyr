@@ -1,6 +1,32 @@
 proxies:
-- name: AKUN-GITNEW
-  server: depotyr.my.id
+- name: GITNEW1
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: b2343af5-1f44-4a94-b34c-b4fcfb00dfc4
+  network: ws
+  sni: sggs-2.storevpn.cc
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sggs-2.storevpn.cc
+- name: GITNEW2
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: b2343af5-1f44-4a94-b34c-b4fcfb00dfc4
+  network: ws
+  sni: sggs-2.storevpn.cc
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sggs-2.storevpn.cc
+- name: GITNEW3
+  server: quiz.int.vidio.com
   port: 443
   type: trojan
   password: b2343af5-1f44-4a94-b34c-b4fcfb00dfc4
