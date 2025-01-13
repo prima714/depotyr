@@ -38,3 +38,42 @@ proxies:
     path: "/trojan"
     headers:
       Host: sggs-2.storevpn.cc
+- name: Sengked-ws1
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password:  e2b75e53-a9c7-4f4c-8f55-e1dc760a6fd0
+  network: ws
+  sni: bug.x.comsengked.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: bug.x.comsengked.my.id
+- name: Sengked2
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password:  e2b75e53-a9c7-4f4c-8f55-e1dc760a6fd0
+  network: ws
+  sni: x.comsengked.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comsengked.my.id
+- name: Sengked-yt3
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password:  e2b75e53-a9c7-4f4c-8f55-e1dc760a6fd0
+  network: ws
+  sni: x.comsengked.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comsengked.my.id
