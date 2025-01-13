@@ -77,3 +77,16 @@ proxies:
     path: /trojan-ws
   headers:
     Host: x.comsengked.my.id
+- name: Sengked-yt4
+  server: zaintest.vuclip.com
+  port: 443
+  type: trojan
+  password:  e2b75e53-a9c7-4f4c-8f55-e1dc760a6fd0
+  network: ws
+  sni: x.comsengked.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+  headers:
+    Host: x.comsengked.my.id
